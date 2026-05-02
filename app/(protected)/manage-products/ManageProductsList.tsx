@@ -87,7 +87,7 @@ export function ManageProductsList({ initialProducts }: ManageProductsListProps)
                 <span>{new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(new Date(product.createdAt))}</span>
               </div>
             </CardContent>
-            <CardFooter className="gap-2">
+            <CardFooter className="flex flex-col gap-2">
               <Button variant="outline" className="w-full" asChild>
                 <Link href={`/products/${product.id}`}>View</Link>
               </Button>
