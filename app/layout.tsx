@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Shop",
-  description: "NextJS Shop",
+  title: "MarketApp",
+  description: "MarketApp",
 };
 
 export default function RootLayout({
